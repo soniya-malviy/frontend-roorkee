@@ -294,7 +294,7 @@ const ProfileModal = ({ onClose }) => {
                   name="name"
                   className="w-full h-[44px] border border-gray-30 p-2 rounded-lg bg-gray-10 text-[12px] font-semibold text-black"
                   placeholder="Enter your name"
-                  value={profileData.name}
+                   value={emailData?.email || ""}
                   onChange={handleChange}
                 />
               </div>
